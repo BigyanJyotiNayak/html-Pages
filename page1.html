@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Pizza Store
+        </title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h2>
+                    <b>
+                        <font color="#00ff00">
+                            CEL!BR!TY
+                        </font>
+                        <font color="#00cdff">
+                            P!ZZA
+                        </font>
+                    </b>
+                </h2>
+            </center>
+            <marquee behavior="alternate" direction="left" bgcolor="#FFFFE0">
+                <h2>
+                    <b>
+                        <font color="#FF1493">
+                            --! Buy 2 Get 1 Free !--
+                        </font>
+                    </b>
+                </h2>
+            </marquee>
+            <p>
+                <center>
+                    <h3>
+                        <b>
+                            <font color="#ff0089">
+                                <a href="page3.html" target="_blank" rel="stylesheet">--! Menu !--</a> | &nbsp;&nbsp;
+                                <a href="page2.html" target="_blank" rel="stylesheet">--! Receipe !--</a> | &nbsp;&nbsp;
+                                <a href="#" target="_blank" rel="stylesheet">--! Order !--</a>
+                            </font>
+                        </b>
+                    </h3>
+                </center>
+            </p>
+        </header>
+        <hr>
+        <table align="center" bgcolor="#7FFF00" cellspacing="10px" cellpadding="10px">
+            <caption>
+                <h2>
+                    <b>
+                        <font color="#800080">
+                            --! Quick P!zza Ordering Site !--
+                        </font>
+                    </b>
+                </h2>
+            </caption>
+            <tr>
+                <td>
+                    <label for="CN">Customer Name</label>
+                </td>
+                <td>
+                    <input type="text" id="CN" name="customername" placeholder="Enter your name" required> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Ad">Address</label>
+                </td>
+                <td>
+                    <textarea name="adsress" id="Ad" cols="20" rows="5">
+                        Text---
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <h3>
+                        <b>
+                            <font color="#ff4307">
+                                p!zza Type
+                            </font>
+                        </b>
+                    </h3>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/margherita-pizza.jpg" alt="Item is no longer available for today" width="100px" height="100px" title="Margerita">
+                    <br>
+                    <input type="radio" id="1" value="Margherita">Margherita
+                </td>
+                <td>
+                    <img src="img/hawaiian-pizza.webp" alt="Item is no longer available for today" width="100px" height="100px" title="Hawaiian">
+                    <br>
+                    <input type="radio" id="2" value="Hawaiian">Hawaiian
+                </td>
+                <td>
+                    <img src="img/meatloverspizza1 - Copy.jpg" alt="Item is no longer available for today" width="100px" height="100px" title="MeatLover pizza">
+                    <br>
+                    <input type="radio" id="3" value="MeatLover Pizza">MeatLover Pizza
+                </td>
+                <td>
+                    <img src="img/SupremePizza - Copy.webp" alt="Item is no longer available for today" width="100px" height="100px" title="Supreme Pizza">
+                    <br>
+                    <input type="radio" id="4" value="Supreme pizza">Supreme Pizza
+                </td>
+                <td>
+                    <img src="img/veggie-pizza.webp" alt="Item is no longer available for today" width="100px" height="100px" title="Vegeterian Pizza">
+                    <br>
+                    <input type="radio" id="5" value="Vegeterian">Vegeterian
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ET0"><h3><b><font color="#0008ff">EXTRA TOPPINGS</font></b></h3></label>
+                    <br>
+                    <input type="checkbox" name="extratoppings" id="ET0" value="Anchiovies">Anchiovies
+                    <br>
+                    <input type="checkbox" name="extratoppings" id="ET1" value="Mushrooms">Mushrooms
+                    <br>
+                    <input type="checkbox" name="extratoppings" id="ET2" value="Olives">Olives
+                    <br>
+                    <input type="checkbox" name="extratoppings" id="ET3" value="Chillies">Chillies
+                </td>
+                <td>
+                    <label for="SR"><h3><b><font color="#0008ff">Special Requests</font></b></h3></label>
+                    <br>
+                    <textarea name="Special Rq" id="SR" cols="20" rows="5">Text---</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="NP"><h3><b><font color="#910078">No.of p!zzas</font></b></h3></label>
+                    <br>
+                    <input type="number" id="NP" name="No.of p!zzas" placeholder="Quantity(in nos)" required>
+                </td>
+                <td>
+                    <input type="submit" value="Calculate" id="C1">Enter
+                    <br><br>
+                    <input type="Reset" value="Reset" id="C2">Cancel
+                </td>
+                <td>
+                    <label for="TP"><h3><b><font color="#910078">Total Price $___</font></b></h3></label>
+                    <br>
+                    <input type="button" id="TP" value="Complete Order">
+                </td>
+                <td>
+                    <input type="button" id="Gb" value="Go back">
+                    <br><br>
+                    <input type="button" id="Ex" value="Exit">
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <footer>
+            <marquee behavior="alternate" direction="right" bgcolor="#1cff02">
+                <h3>
+                    <font color="#0400fe" face="cooper">
+                        Any Queries contact on 
+                    </font>
+                    <font color="#fe0081" face="cooper">
+                        +91-8457026078
+                    </font>
+                </h3>
+            </marquee>
+            <center>
+                <h3>
+                    <b>
+                        <font color="#ff00d3">
+                            ----! Welcome to my Resturant !----
+                        </font>
+                    </b>
+                </h3>
+            </center>
+            <marquee behavior="alternate" direction="left" bgcolor="#ff0270">
+                <h3>
+                    <font color="#1cff02" face="cooper">
+                        For more Help:--
+                    </font>
+                    <font color="#0030ff" face="cooper">
+                        <a href="bigyanjyoti12345@gmail.com">Click Here</a>
+                    </font>
+                </h3>
+            </marquee>
+        </footer>
+    </body>
+</html>
